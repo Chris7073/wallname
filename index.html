@@ -10,7 +10,7 @@
 
 <body style="background-color: black;">
     <div>
-        <div class="flex-wrap" id="wrap"></div>
+        <div class="container" id="wrap"></div>
 
     </div>
     <style>
@@ -18,20 +18,36 @@
             font-family: "Monrope Medium";
             src: url(inc/fonts/Manrope-Medium.ttf);
         }
-        .flex-wrap {
-            display: flex;
-            flex-wrap: wrap;
+
+        @media screen and (max-width: 640px) {
+            .container {
+                grid-template-columns: auto auto auto;
+            }
+        }
+        @media screen and (min-width: 640px) and (max-width:1000px){
+            .container {
+                grid-template-columns: auto auto auto auto;
+            }
+        }
+        @media screen and (min-width: 1000px) {
+            .container {
+                grid-template-columns: auto auto auto auto auto;
+            }
+        }
+        .container {
+            display: grid;
             gap: 0.4rem;
             user-select: none;
         }
 
         .bolla {
             font-family: "Monrope Medium";
-            display: flex;
+            display: grid;
             padding: 8px 16px 8px 16px;
             border-radius: 8px;
             flex-direction: row;
             align-items: center;
+            justify-content: center;
         }
     </style>
     <script type="module" src="index.js"></script>
