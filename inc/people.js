@@ -5,7 +5,7 @@ export let names = [
         emoji: "",
         background_color: 1,
         foreground_color: 1
-    }, 
+    },
     {
         name: "Chris7073",
         emoji: "🌚",
@@ -29,25 +29,25 @@ export let names = [
         emoji: "",
         background_color: 1,
         foreground_color: 1
-    }, 
+    },
     {
         name: "MatB57",
         emoji: "",
         background_color: 1,
         foreground_color: 1
-    }, 
+    },
     {
         name: "mosalah",
         emoji: "",
         background_color: 1,
         foreground_color: 1
-    }, 
+    },
     {
         name: "PiweeeX",
         emoji: "",
         background_color: 1,
         foreground_color: 1
-    }, 
+    },
     {
         name: "Sketchware Expert",
         emoji: "",
