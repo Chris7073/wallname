@@ -5,7 +5,7 @@ function getNames() {
     names.forEach(element => {
         let utente = document.createElement("div");
         let width = window.innerWidth;
-        utente.innerHTML = element.emoji + (element.name.length > 12 ? `${element.name.substring(0, width <600?12:16)}...` : element.name);
+        utente.innerHTML = element.emoji + (element.name.length > 12 ? `${element.name.substring(0, width <600?10:12)}...` : element.name);
         contenitore.appendChild(utente);
         utente.classList.add("bolla");
         utente.style.backgroundColor = element.background_color == 1 ? "#dee3ed" : element.background_color;
