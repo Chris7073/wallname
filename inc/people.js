@@ -16,7 +16,7 @@ export let names = [
         name: "Kurro_Wolfy",
         emoji: "💜",
         background_color: "#ef56d1",
-        foreground_color: 2
+        foreground_color: 1
     },
     {
         name: "VikkiVuk",
